@@ -1,0 +1,162 @@
+body {
+    background: url('../images/love.jpg');
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    color:#ff9999;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 4px 4px #fff2e6;
+    padding: 20px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    background-color:#f2e5d9;
+}
+
+.button:active {
+    background-color: #fff2e6;
+    transform: scale(0.8);
+}
+
+
+section {
+    background-color: #f2e5d9;
+    border-radius: 50px;
+    margin: 2em 2em 2em 2em;
+    box-shadow: 4px 4px #fff2e6;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 7em;
+    font-weight: normal;
+    padding: 1em 0em 0em 1.5em;
+    color: #ff9999;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em;
+    color: black;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+.music {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff9999;
+    margin: 5em;
+}
+
+audio {
+   display: block;
+   width: 700px;
+   padding-top:1em;
+   padding-left: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    font-family: monospace;
+    text-align: center;
+    padding: 2em;
+}
+
+.gallery {
+    /* background: url("../images/1.png") no-repeat; */
+    background-size: 100% 100%;
+    width: 600px;
+    height: 400px;
+    margin: 30px 20px 200px 150px;
+    
+    /* Animation below */
+    
+    animation-name: gallery;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+
+.happy {
+    text-align: center;
+    padding-left: 2px;
+    margin-top: -80px;
+}
+
+
+/* KEYFRAMES AFTER HERE */
+
+
+@keyframes gallery {
+    0% {
+        background: url("../images/1.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+        
+    }
+    15% {
+        background: url("../images/2.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    25% {
+        background: url("../images/3.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    35% {
+        background: url("../images/4.jpg") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    45% {
+        background: url("../images/5.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    55% {
+        background: url("../images/6.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    65% {
+        background: url("../images/7.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    75% {
+        background: url("../images/8.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    85% {
+        background: url("../images/9.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+    100% {
+        background: url("../images/1.png") no-repeat;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 400px;
+    }
+}
